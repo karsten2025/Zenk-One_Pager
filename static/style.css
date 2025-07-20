@@ -11,8 +11,8 @@
 
 /* ===== GRUNDEINSTELLUNGEN & VARIABLEN ===== */
 :root {
-    --primary-color: #003366; /* Ein dunkles, sattes Blau (passend zu Stahl/Industrie) */
-    --secondary-color: #E87722; /* Ein starker, warmer Orangeton als Akzent */
+    --primary-color: #B0BDC7; /* Ein dunkles, sattes Blau (passend zu Stahl/Industrie) */
+    --secondary-color: #fc591f; /* Ein starker, warmer Orangeton als Akzent */
     --background-color: #f4f7f6;
     --text-color: #333333;
     --light-gray: #e9ecef;
