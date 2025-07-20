@@ -11,8 +11,8 @@
 
 /* ===== GRUNDEINSTELLUNGEN & VARIABLEN ===== */
 :root {
-    --primary-color: #B0BDC7; /* Ein dunkles, sattes Blau (passend zu Stahl/Industrie) */
-    --secondary-color: #fc591f; /* Ein starker, warmer Orangeton als Akzent */
+    --primary-color: #003366; /* Ein dunkles, sattes Blau (passend zu Stahl/Industrie) */
+    --secondary-color: #E87722; /* Ein starker, warmer Orangeton als Akzent */
     --background-color: #f4f7f6;
     --text-color: #333333;
     --light-gray: #e9ecef;
@@ -350,4 +350,82 @@ h2::after {
 
 .footer a:hover {
     color: var(--white);
+}
+
+/* =================================== */
+/* ===== RESPONSIVE ANPASSUNGEN ===== */
+/* =================================== */
+
+/* Für Tablets und kleinere Desktops */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    .header-title {
+        font-size: 4rem;
+    }
+
+    .header-subtitle {
+        font-size: 1.2rem;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+}
+
+/* Für Smartphones */
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .header-title {
+        font-size: 3rem;
+        letter-spacing: 1px;
+    }
+
+    .header-subtitle {
+        font-size: 1rem;
+    }
+
+    .section {
+        padding: 40px 0;
+    }
+
+    .kompetenz-item {
+        padding: 20px;
+    }
+
+    .dokumente-buttons {
+        flex-direction: column; /* Buttons untereinander anordnen */
+        align-items: center;
+        gap: 15px;
+    }
+
+    .btn, .tablinks {
+        width: 80%;
+        text-align: center;
+        padding: 12px 20px;
+    }
+    
+    .password-form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #zeugnis-password {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .accordion {
+        font-size: 1rem;
+        padding: 15px;
+    }
+
+    .footer {
+        padding: 40px 0;
+    }
 }
