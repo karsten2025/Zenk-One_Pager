@@ -29,8 +29,11 @@
             <div class="container">
                 <h2>Mein Pitch</h2>
                 <div class="video-placeholder-bg">
-                    <div class="placeholder-text">
-                        <p>Hier wird in Kürze ein Vorstellungsvideo platziert.</p>
+                    <!-- NEU: Container für die Laufschrift -->
+                    <div class="marquee-container">
+                        <div class="marquee-text">
+                            Hier wird in Kürze ein Vorstellungsvideo platziert.
+                        </div>
                     </div>
                 </div>
             </div>
@@ -144,8 +147,8 @@
                         <p><a href="{{ url_for('static', filename='docs/zertifikate/prozess_und_qualitaet/2017_09_Operations_Management.pdf') }}" target="_blank">2017-09: Operations Management</a></p>
                         <p><a href="{{ url_for('static', filename='docs/zertifikate/prozess_und_qualitaet/2016_11_ProcessMining.pdf') }}" target="_blank">2016-11: Process Mining</a></p>
                         <p><a href="{{ url_for('static', filename='docs/zertifikate/prozess_und_qualitaet/2015_11_OperationsAnalytics.pdf') }}" target="_blank">2015-11: Operations Analytics</a></p>
-                        <p><a href="{{ url_for('static', filename='docs/zertifikate/prozess_und_qualitaet/2013_06_REFAProzess1.pdf') }}" target="_blank">2013-06: REFA Prozess (Teil 2)</a></p>
-                        <p><a href="{{ url_for('static', filename='docs/zertifikate/prozess_und_qualitaet/2013_06_REFAProzess.pdf') }}" target="_blank">2013-06: REFA Prozess</a></p>
+                        <p><a href="{{ url_for('static', filename='docs/zertifikate/prozess_und_qualitaet/2013_06_REFAPozess1.pdf') }}" target="_blank">2013-06: REFA Prozess (Teil 2)</a></p>
+                        <p><a href="{{ url_for('static', filename='docs/zertifikate/prozess_und_qualitaet/2013_06_REFAPozess.pdf') }}" target="_blank">2013-06: REFA Prozess</a></p>
                         <p><a href="{{ url_for('static', filename='docs/zertifikate/prozess_und_qualitaet/2008_03_Arbeitssicherheit.JPG') }}" target="_blank">2008-03: Arbeitssicherheit</a></p>
                         <p><a href="{{ url_for('static', filename='docs/zertifikate/prozess_und_qualitaet/2005_09_FMEA.JPG') }}" target="_blank">2005-09: FMEA</a></p>
                         <p><a href="{{ url_for('static', filename='docs/zertifikate/prozess_und_qualitaet/2005_07_Project_FMEA.JPG') }}" target="_blank">2005-07: Project FMEA</a></p>
@@ -195,7 +198,7 @@
                         
                         <button class="accordion">Salzgitter Mannesmann Forschung GmbH (11/2002 - 11/2005)</button>
                         <div class="panel">
-                            <p><a href="{{ url_for('static', filename='docs/zertifikate/zeugnisse/salzgitter_mannesmann_forschung_gmbh/2005_11_Zeugnis_SZMF.pdf') }}" target="_blank">2005-11: Arbeitszeugnis</a></p>
+                            <p><a href="{{ url_for('static', filename='docs/zertifikate/zeugnisse/salzgitter_mannesmann_gmbh/2005_11_Zeugnis_SZMF.pdf') }}" target="_blank">2005-11: Arbeitszeugnis</a></p>
                         </div>
                         
                         <button class="accordion">Wilke GmbH</button>

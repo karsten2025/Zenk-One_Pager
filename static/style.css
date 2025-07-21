@@ -107,7 +107,7 @@ h2::after {
     margin: 0 auto;
     border-radius: var(--border-radius);
     background-color: #e0e0e0; /* Hintergrundfarbe falls Bild nicht lädt */
-    background-image: url('img/karsten-profile.jpg');
+    background-image: url('/static/img/karsten-profile.jpg'); /* Absoluter Pfad für mehr Stabilität */
     background-size: contain; /* Bild komplett anzeigen, nicht abschneiden */
     background-position: center;
     background-repeat: no-repeat; /* Verhindert Kachelung des Bildes */
